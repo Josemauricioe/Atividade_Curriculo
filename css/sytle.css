@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    padding: 20px;
+    
+}
+
+.header{
+    border: 2px black solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    font-family: Dancing Script;
+}
+
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+
+}
+.menu a:hover{
+    border-bottom: 2px red solid;
+    color: rgba(255, 0, 0, 0.401);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px 20px 250px;
+    gap: 2rem;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.texto_1{
+    padding-left: 10px;
+}
+.espaco{
+    padding: 10px 80px 0px 80px;
+}
+
+.cabecalha{
+    padding: 2rem 80px 0px 80px;
+    color: red;
+}
+
+.cont_geral{
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    padding: 10px 0px 20px 10px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center ;
+}
+
+.images img{
+    width: 300px;
+    height: auto;
+    
+}
+.ajusta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-form{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 10px;
+}
+
+.cont-binput{
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+}
+
+.cont-input input{
+    padding: 2px 1px;
+    border: 1px solid gray;
+}
+.cont-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: gray;
+    font-size: 1.4rem;
+}
